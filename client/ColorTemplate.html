@@ -1,0 +1,13 @@
+<template name="ColorTemplate">
+	{{#with GetLeftColor}}
+	<div class="leftballot" style="background-color:{{color}};" >
+		{{name}}
+	</div>
+	{{/with}}
+	{{#with GetRightColor}}
+	<div class="rightballot" style="background-color:{{color}};">
+		{{name}}
+	</div>
+	{{/with}}
+	
+</template>

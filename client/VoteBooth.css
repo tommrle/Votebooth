@@ -1,0 +1,26 @@
+body {
+	background-color: #222;
+}
+
+.box {
+	background-color: #222;
+	width: 800px;
+	height: 400px;
+	font-size:60px;
+}
+
+.leftballot {
+	float:left;
+	height: 400px;
+	width:49%;
+}
+
+.rightballot {
+	float:right;
+	height: 400px;
+	width:49%;
+}
+
+th {
+	color:gray;
+}

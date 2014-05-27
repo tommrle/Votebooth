@@ -1,0 +1,13 @@
+<template name="LeaderboardTemplate">
+	<table>
+			<th>Color</th>
+			<th>Points</th>
+		{{#each GetColors}}
+		<tr style="background-color:{{color}}">
+			<td>{{name}}</td>
+			<td>{{score}}</td>
+		</tr>
+		{{/each}}
+	</table>
+
+</template>
